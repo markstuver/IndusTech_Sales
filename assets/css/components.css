@@ -942,6 +942,7 @@
 		font-size: 14px;
 		letter-spacing: 3px;
 		text-transform: uppercase;
+		
 	}
 
 	.revolution-style-custom-2 {
@@ -1012,7 +1013,7 @@
 			height: 200px;
 		}
 		
-		.tp-caption .btn  { padding: 5px 10px; }
+		.tp-caption .btn  { padding: 40px 10px; }
 	}
 	
 	@media (max-width: 767px) {
@@ -1023,7 +1024,7 @@
 		}
 		
 		.tp-caption .btn {
-			padding: 3px 6px;
+			padding: 40px 6px;
 			font-size: 6px;
 		}
 		

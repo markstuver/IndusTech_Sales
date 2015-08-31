@@ -3,7 +3,7 @@
    ========================================================================== */
 
 	.container ,
-	.container-fluid {
+	.container-fluid , .containerRedTop {
 		position: relative;
 		margin-right: auto;
 		margin-left: auto;
@@ -12,9 +12,14 @@
 				box-sizing: border-box;
 	}
 
-	.container {
+	.container , .containerRedTop {
 		padding-right: 15px;
 		padding-left: 15px;
+	}
+	
+	.paddingAboveContact {
+	padding-top: 100px;
+
 	}
 
 	.row {
