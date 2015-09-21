@@ -703,7 +703,7 @@
 					$(form).ajaxSubmit({
 						type: "POST",
 						data: $(form).serialize(),
-						url: "_layout/php/send.php",
+						url: "assets/php/send.php",
 						success: function(msg) {
 							
 							if (msg === 'OK') {

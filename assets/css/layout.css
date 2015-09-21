@@ -518,11 +518,14 @@
 	.animated-parallax { background-repeat: repeat-x; }	
 
 	#bg-1 {
-		padding: 110px 0;
-		margin: 50px 0 110px 0;
-		background: #f7f7f7 url(../../content/background/960x540-1.jpg) no-repeat center right;
-		background-size: 50% 100%;
-		color: #101010;
+	padding: 110px 0;
+	margin: 50px 0 110px 0;
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-image: url(../../content/index/revolution-slider/rotatingImage_03b.jpg);
+	background-color: #f7f7f7;
+	background-size: 50% 100%;
+	color: #101010;
 	}
 
 	#bg-1 .btn, 
@@ -685,8 +688,8 @@
 	
 	#bg-16 ul li a {
 		display: block;
-		width: 14.28%;
-		padding: 30px 0;
+		/*width: 14.28%;*/
+		padding: 10px 0;
 		color: #fff;
 	}
 	

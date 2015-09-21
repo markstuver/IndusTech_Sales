@@ -2,9 +2,9 @@
 
 /////////// Add your own email below //////////////// 
 
-	define("WEBMASTER_EMAIL", 'mstuver@halointlcorp.com');
+	define("WEBMASTER_EMAIL", 'dplank@industechsales.com');
 	
-	error_reporting (E_ALL ^ E_NOTICE);
+	error_reporting (E_ALL ^ E_NOTICE); 
 
 //////////////////////////////////////////////////////
 

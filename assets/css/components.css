@@ -913,10 +913,10 @@
    ========================================================================== */
    
 	.background-blue {
-		width: 810px;
-		height: 300px;
-		max-width: 100% !important;
-		background-color: #24bee8;
+	width: 850px;
+	height: auto;
+	max-width: 100% !important;
+	background-color: #24bee8;
 	}
 
 	.background-blue-inner-1 {
@@ -939,7 +939,8 @@
 	.revolution-style-custom-1 {
 		color: #fff;
 		font-family: "Montserrat", sans-serif;
-		font-size: 14px;
+		font-size: 18px;
+		font-weight:bold;
 		letter-spacing: 3px;
 		text-transform: uppercase;
 		
@@ -952,6 +953,25 @@
 		font-weight: 700;
 		letter-spacing: 7px;
 		text-transform: uppercase;
+	}
+
+	.revolution-style-custom-3 {
+		color: #fff;
+		font-family: "Montserrat", sans-serif;
+		font-size: 48px;
+		font-weight: 700;
+		letter-spacing: 7px;
+		text-transform: uppercase;
+	}
+	
+		.revolution-style-custom-4 {
+		color: #fff;
+		font-family: "Montserrat", sans-serif;
+		font-size: 18px;
+		font-weight:bold;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		
 	}
 
 	.rounded {
@@ -1051,7 +1071,7 @@
 	a.social-icon {
 		float: left;
 		display: block;
-		width: 30px;
+		width: 150px;
 		margin-right: 1px;
 		margin-bottom: 1px;
 		color: #444;
@@ -1937,6 +1957,7 @@
 	.fullwidth-section.custom-color-selected #newsletter-subscribe-form input[type="text"], 
 	.fullwidth-section.custom-color-selected .posted-on { color: inherit; } 
 	
+
     .fullwidth-section.custom-color-selected .accordion-item:hover, 
 	.fullwidth-section.custom-color-selected .accordion-item.active, 
 	.fullwidth-section.custom-color-selected .toggle-item:hover, 

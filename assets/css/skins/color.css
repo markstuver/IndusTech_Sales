@@ -389,8 +389,11 @@
 	}
 
 	#bg-1 {
-		background: #f7f7f7 url(../../../content/background/960x540-1.jpg) no-repeat center right;
-		color: #101010;
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-image: url(../../../content/index/revolution-slider/rotatingImage_03b.jpg);
+	background-color: #f7f7f7;
+	color: #101010;
 	}
 
 	#bg-1 .btn, 
@@ -485,7 +488,7 @@
 	
 	#bg-16 ul li a:hover {		
 		color: #fff !important;
-		background-color: #17acd4;
+		background-color:#808080
 	}
 	
 	#bg-17 {
@@ -688,9 +691,10 @@
 /* =Default Button
    ========================================================================== */
    
-	.btn { 
-		background-color: #1027bf;
-		color: #fff !important;	
+	.btn {
+	background-color: #1027bf;
+	color: #fff !important;
+	border-radius: 100px;
 	}
 	
 	a.btn { color: #fff; }
@@ -709,8 +713,8 @@
 	a.btn-white { color: #1027bf !important; }
 	
 	.btn-white:hover { 
-		border: 1px solid #17acd4 !important;
-		background-color: #17acd4 !important;
+		border: 1px solid #e41a00 !important;
+		background-color: #1027bf !important;
 		color: #fff !important;
 	}
 	
@@ -904,14 +908,27 @@
 	}
 
 	.revolution-style-custom-1 {
-		color: #000;
+	color: #000;
+	text-shadow: 1px 1px #fff;
 	}
 
 	.revolution-style-custom-2 {
 	color: #1027bf;
-	text-shadow: 0px 0px;
+	text-shadow: 1px 1px #fff;
 	padding-left: 50px;
 	text-transform: uppercase;
+	}
+	
+	.revolution-style-custom-3 {
+	color: #fff;
+	text-shadow: 1px 1px #1027bf;
+	padding-left: 50px;
+	text-transform: uppercase;
+	}
+	
+	.revolution-style-custom-4 {
+	color: #fff;
+	text-shadow: 1px 1px #1027bf;
 	}
 
 	.rounded h4, 
@@ -1516,3 +1533,13 @@
    ========================================================================== */
 	
 	.ewf_widget_social_media a { color: #101010; }
+
+/* =TEMPLATE
+   ========================================================================== */
+
+.mainContent {
+padding-top: 50px;
+padding-bottom: 25px;
+
+	
+}
